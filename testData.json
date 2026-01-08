@@ -1,0 +1,13 @@
+{
+  "url": "https://freelance-learn-automation.vercel.app/login",
+
+  "validUser": {
+    "username": "new@yopmail.com",
+    "password": "Password@12345"
+  },
+
+  "invalidUser": {
+    "username": "asd@yopmail.com",
+    "password": "Password@12345"
+  }
+}
