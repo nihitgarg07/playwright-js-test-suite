@@ -12,7 +12,7 @@ class RegisterationPage{
             this.inputEmailXpath = "//input[@id='email']"
             this.inputPasswordXpath = "//input[@id='password']"
             this.seleniumCheckboxXpath = "//label[text()='Selenium']"
-            this.PlaywrightheckboxXpath = "//label[text()='Playwright']"
+            this.TestNGcheckboxXpath = "//label[text()='TestNG']"
             this.femaleRadioXpath = "//input[@id='gender2']"
             this.stateDropdownXpath = "//select[@id='state']"
             this.hobbiesDrowpdownXpath = "//select[@id='hobbies']"   
@@ -35,7 +35,7 @@ class RegisterationPage{
 
         async checkInterest(){
             await this.page.locator(this.seleniumCheckboxXpath).click()
-            await this.page.locator(this.PlaywrightheckboxXpath).click()
+            await this.page.locator(this.TestNGcheckboxXpath).click()
         }
 
         async selectGender(){

@@ -8,6 +8,8 @@ class HomePage{
         this.cartButtonXpath = "//button[text()='Cart']"
         this.menuButtonXpath = "//img[@alt='menu']"
         this.signOutButtonXpath = "//button[text()='Sign out']"
+        this.javaForTestCartXpath="//h2[text()='Java For Tester']/ancestor::div[@class='course-content']/following-sibling::button"
+        this.cartCountXpath = "//button[@class='cartBtn']/span"
     }
 
     async menuClick(){
@@ -17,7 +19,9 @@ class HomePage{
     async signOutClick(){
         await this.page.locator(this.signOutButtonXpath).click()
     }
-
+    async addtoCart(){
+        await this.page.locator(this.javaForTestCartXpath).click()
+    }
 
 }
 

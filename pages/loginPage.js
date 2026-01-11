@@ -15,13 +15,15 @@ class LoginPage{
         this.signInButtonXpath = "//button[text()='Sign in']"
         this.signUpButtonXpath = "//a[contains(text(),'New user')]"
         this.toastMessageXPATH = "//div[@role='alert']"
+        this.errorMessageXpath = "//h2[@class='errorMessage']"
+        this.SignInTextXpath = "//h2[text()='Sign In']"
     }
 
-    async enterMailId(){
-        await this.page.locator(this.userNameXpath).fill(testData.validUser.username)
+    async enterMailId(UserName){
+        await this.page.locator(this.userNameXpath).fill(UserName)
     }
-    async enterPassword(){
-        await this.page.locator(this.passwordXpath).fill(testData.validUser.password)
+    async enterPassword(password){
+        await this.page.locator(this.passwordXpath).fill(password)
     }
     async clickSignInButton(){
         await this.page.locator(this.signInButtonXpath).click()
