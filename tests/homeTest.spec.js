@@ -14,8 +14,9 @@ test.describe("Home Page Test Cases",()=>{
         await page.waitForLoadState("networkidle")
         await homePage.menuClick()
         await homePage.signOutClick()
-        expect(page).toHaveURL(/login/)
-        expect(page.locator(loginPage.SignInTextXpath)).toContainText("Sign In")
+
+        await expect(page).toHaveURL(/login/)
+        await expect(page.locator(loginPage.SignInTextXpath)).toContainText("Sign In")
 
     })
 
@@ -28,8 +29,8 @@ test.describe("Home Page Test Cases",()=>{
         await loginPage.clickSignInButton()
         await page.waitForLoadState("networkidle")
         await homePage.addtoCart()
-        expect(page.locator(homePage.javaForTestCartXpath)).toContainText("Remove from Cart")
-        expect(page.locator(homePage.cartCountXpath)).toHaveText("1")
+        await expect(page.locator(homePage.javaForTestCartXpath)).toContainText("Remove from Cart")
+        await expect(page.locator(homePage.cartCountXpath)).toHaveText("1")
 
 
     })

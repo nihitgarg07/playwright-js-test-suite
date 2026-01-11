@@ -12,7 +12,7 @@ test.describe("login test cases",()=>{
         await loginPage.enterPassword(testdata.validUser.password)
         await loginPage.clickSignInButton()
         await page.waitForLoadState("networkidle")
-        expect(page.locator(homePage.cartButtonXpath)).toBeVisible()
+        await expect(page.locator(homePage.cartButtonXpath)).toBeVisible()
     
     })    
 
