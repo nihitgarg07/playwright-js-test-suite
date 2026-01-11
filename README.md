@@ -47,7 +47,7 @@ This project follows a clean and scalable structure suitable for learning modern
         6. HTML test report generation
 
 ## 📂 Project Structure
-
+```
 playwright-js-test-suite/
 ├── .github/
 │   └── workflows/          # GitHub Actions (CI)
@@ -57,6 +57,7 @@ playwright-js-test-suite/
 ├── playwright.config.js    # Playwright configuration
 ├── package.json            # Project dependencies & scripts
 └── README.md
+```
 
 # ⚙️ Prerequisites
 
