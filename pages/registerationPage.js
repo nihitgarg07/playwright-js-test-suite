@@ -1,5 +1,5 @@
 
-const userNameGen = require("../util/userNameGen")
+const userNameGen = require("../utils/userNameGen")
 class RegisterationPage{
 
      /**
