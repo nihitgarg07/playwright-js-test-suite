@@ -1,57 +1,52 @@
-🎭 Playwright JS Test Suite
-
-
-
-
-
+## 🎭 Playwright JS Test Suite
 
 
 
 A Playwright-based automation testing framework built using JavaScript for practicing and demonstrating end-to-end web testing concepts.
 This project follows a clean and scalable structure suitable for learning modern test automation practices.
 
-🔗 Application Under Test:
-https://freelance-learn-automation.vercel.app/
+# 🔗 Application Under Test:
+        https://freelance-learn-automation.vercel.app/
 
-📌 Project Purpose
+# 📌 Project Purpose
 
-This project was created as a practice / learning mini project to:
+        1. This project was created as a practice / learning mini project to:
 
-Learn Playwright with JavaScript
+        2. Learn Playwright with JavaScript
 
-Understand end-to-end automation testing
+        3. Understand end-to-end automation testing
 
-Implement reusable and maintainable test structure
+        4. Implement reusable and maintainable test structure
 
-Gain hands-on experience with a real web application
+        5. Gain hands-on experience with a real web application
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
-Language: JavaScript (ES6)
+        1. Language: JavaScript (ES6)
 
-Automation Tool: Playwright
+        2. Automation Tool: Playwright
 
-Runtime: Node.js
+        3. Runtime: Node.js
 
-Test Runner: Playwright Test
+        4. Test Runner: Playwright Test
 
-Reporting: Playwright HTML Report
+        5. Reporting: Playwright HTML Report
 
-✨ Features
+# ✨ Features
 
-End-to-end UI automation using Playwright
+        1. End-to-end UI automation using Playwright
 
-Supports modern browsers (Chromium, Firefox, WebKit)
+        2. Supports modern browsers (Chromium, Firefox, WebKit)
 
-Clean folder structure
+        3. Clean folder structure
 
-Reusable utilities and page logic
+        4. Reusable utilities and page logic
 
-Easy setup and execution
+        5. Easy setup and execution
 
-HTML test report generation
+        6. HTML test report generation
 
-📂 Project Structure
+# 📂 Project Structure
 playwright-js-test-suite/
 │
 ├── .github/workflows/      # GitHub Actions (CI)
@@ -62,7 +57,7 @@ playwright-js-test-suite/
 ├── package.json            # Project dependencies & scripts
 └── README.md
 
-⚙️ Prerequisites
+# ⚙️ Prerequisites
 
 Make sure you have the following installed:
 
@@ -75,7 +70,7 @@ Check installation:
 node -v
 npm -v
 
-🚀 Installation & Setup
+# 🚀 Installation & Setup
 
 Clone the repository
 
@@ -96,7 +91,7 @@ Install Playwright browsers
 
 npx playwright install
 
-▶️ Running Tests
+# ▶️ Running Tests
 Run all tests
 npx playwright test
 
@@ -106,13 +101,13 @@ npx playwright test --headed
 Run tests in a specific browser
 npx playwright test --project=chromium
 
-📊 View Test Report
+# 📊 View Test Report
 
 After test execution, open the HTML report:
 
 npx playwright show-report
 
-🧪 Test Coverage
+# 🧪 Test Coverage
 
 UI workflows
 
@@ -122,7 +117,7 @@ Navigation and validations
 
 Cross-browser testing
 
-📌 Future Improvements
+# 📌 Future Improvements
 
 Add API testing support
 
@@ -134,7 +129,7 @@ Increase test coverage
 
 Add data-driven testing
 
-👤 Author
+# 👤 Author
 
 Nihit Garg
 GitHub: @nihitgarg07
